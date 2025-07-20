@@ -77,7 +77,7 @@ The framework is integrated with Jenkins to enable CI/CD. A Jenkins job is confi
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/AutomationForge/SeleniumTestNgFramework.git
+   git clone https://github.com/AutomationForge/EcommerceAppAutomation.git
    cd SeleniumTestNgFramework
 
 2. **Install Dependencies**:
