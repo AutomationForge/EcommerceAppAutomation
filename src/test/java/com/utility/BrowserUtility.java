@@ -61,26 +61,26 @@ public class BrowserUtility {
 		}
 	}
 
-//	public BrowserUtility(Browser browserName) {
-//
-//		logger.info("Launching Browser for " + browserName);
-//
-//		if (browserName == Browser.CHROME) {
-//
-//			driver.set(new ChromeDriver());
-//
-//		} else if (browserName == Browser.EDGE) {
-//
-//			driver.set(new EdgeDriver());
-//
-//		} else if (browserName == Browser.FIREFOX) {
-//
-//			driver.set(new FirefoxDriver());
-//
-//		}
-//
-//		driver.get().manage().window().maximize();
-//	}
+	public BrowserUtility(Browser browserName) {
+
+		logger.info("Launching Browser for " + browserName);
+
+		if (browserName == Browser.CHROME) {
+
+			driver.set(new ChromeDriver());
+
+		} else if (browserName == Browser.EDGE) {
+
+			driver.set(new EdgeDriver());
+
+		} else if (browserName == Browser.FIREFOX) {
+
+			driver.set(new FirefoxDriver());
+
+		}
+
+		driver.get().manage().window().maximize();
+	}
 
 	public BrowserUtility(Browser browserName, boolean isHeadless) {
 
