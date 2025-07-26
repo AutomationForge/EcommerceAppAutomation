@@ -41,7 +41,7 @@
 //not isLambdaTest > in local system test run
 //Whenever we create homePage = new HomePage(CHROME, isHeadless);
 // It call the constructor(HomePage(WebDriver driver)) present in HomePage class  which will launch the app URL
-
+//Added .gitattribue File
 package com.ui.tests;
 
 import static com.constants.Browser.*;
