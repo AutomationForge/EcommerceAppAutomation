@@ -1,6 +1,0 @@
-# Ignore test reports and build artifacts in language stats
-target/** linguist-vendored
-docs/** linguist-vendored
-*.html linguist-generated
-*.css linguist-generated
-*.js linguist-generated
