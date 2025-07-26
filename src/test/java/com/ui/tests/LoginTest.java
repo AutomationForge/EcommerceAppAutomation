@@ -43,6 +43,7 @@
 // It call the constructor(HomePage(WebDriver driver)) present in HomePage class  which will launch the app URL
 
 package com.ui.tests;
+
 import static com.constants.Browser.*;
 
 import org.testng.Assert;
