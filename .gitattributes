@@ -1,4 +1,4 @@
-# Ignore test reports and build artifacts in language stats
+# Ignore test reports and build artifacts in language stat
 target/** linguist-vendored
 docs/** linguist-vendored
 *.html linguist-generated
